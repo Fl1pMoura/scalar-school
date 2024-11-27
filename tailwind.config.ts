@@ -12,6 +12,7 @@ export default {
         "primary-pink": "#FF1493",
         "primary-blue": "#5D9CEC",
         "primary-purple": "#8251B9",
+        "heading-purple": "#B300FF",
       },
     },
   },

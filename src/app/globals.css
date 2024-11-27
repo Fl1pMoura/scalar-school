@@ -2,5 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
+@layer components {
+  .layout-center{
+    @apply max-w-[1280px] mx-auto px-5;
+  }
+
+  .text-heading {
+    @apply font-bold text-[40px] mb-8 leading-none text-heading-purple;
+  }
 }
