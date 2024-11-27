@@ -4,7 +4,7 @@
 
 @layer components {
   .layout-center{
-    @apply max-w-[1280px] mx-auto px-5;
+    @apply max-w-7xl mx-auto px-5;
   }
 
   .text-heading {
