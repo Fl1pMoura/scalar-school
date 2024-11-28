@@ -4,6 +4,7 @@ import fs from "fs";
 import Image from "next/image";
 import path from "path";
 import Header from "./components/Header";
+import PersonCard from "./components/PersonCard";
 
 export default function Home() {
   const posters = fs.readdirSync(path.join(process.cwd(), "public/posters"));
@@ -190,12 +191,12 @@ export default function Home() {
           </a>
           <a
             className="block font-bold text-center text-2xl text-primary-pink my-6"
-            href="https://github.com/bitdevsinterior"
+            href="https://x.com/bitdevsinterior"
             target="_blank"
           >
             https://x.com/bitdevsinterior
           </a>
-          <p className="text-lg text-black max-w-[820px]">
+          <p className="text-lg text-black">
             Check out the artwork created by the students for the genesis
             meeting of the UFSCar Bitcoin Club:
           </p>
@@ -219,7 +220,7 @@ export default function Home() {
 
       <section className="mt-14">
         <div className="layout-center">
-          <h2 className="text-heading">Attention from the press:</h2>
+          <h2 className="text-heading">Attention from the press</h2>
           <p className="text-lg text-black">
             We were honored to receive coverage from BeInCrypto when we launched
             our first Bitcoin course cohort for women.
@@ -241,6 +242,170 @@ export default function Home() {
           >
             https://x.com/scalarschool/status/1851794719962964150
           </a>
+        </div>
+      </section>
+
+      <section className="mt-14">
+        <div className="layout-center">
+          <h2 className="text-heading">Our people</h2>
+          <p className="text-lg text-black max-w-[600px] mx-auto mb-12">
+            “Life is a cooperative game. Don’t let anyone make you believe that
+            this is a competition.”{" "}
+            <strong className="text-primary-pink">—Luciana Ferreira</strong>
+          </p>
+          <div>
+            <div className="grid grid-cols-[repeat(auto-fit,_minmax(214px,_1fr))] gap-6">
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />{" "}
+              <PersonCard
+                imageSrc="https://rseat.pics/"
+                name="Luciana Ferreira"
+                role="Founder"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-14">
+        <div className="layout-center">
+          <h2 className="text-heading leading-tight">
+            Here’s what our students from the first cohort shared through the
+            anonymous feedback form
+          </h2>
+          <div className="space-y-7">
+            <p className="text-lg text-black">
+              Luciana's teaching method is excellent and covered the entire
+              explanation of how Bitcoin works, which was exactly what I wanted
+              to learn.
+            </p>
+            <p className="text-lg text-black">
+              Luciana understands the need to adapt her approach for a Brazilian
+              female audience. It wouldn’t be convincing if it were just for
+              marketing purposes.
+            </p>
+            <p className="text-lg text-black">
+              Luciana's work is incredible and has been essential for the growth
+              of the community.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-14">
+        <div className="layout-center">
+          <h2 className="text-heading leading-tight">Sponsors</h2>
+          <div className="relative w-[400px] h-[132px] mx-auto mb-16">
+            <Image
+              alt="Human Rights Foundation"
+              src="/human-rights-foundation-logo.webp"
+              fill
+              sizes="100vw"
+            />
+          </div>
+          <p className="text-lg text-black">
+            We didn’t get here alone and are permanently grateful to the Human
+            Rights Foundation for supporting our shared dreams for a society
+            more fair and inclusive.
+          </p>
+        </div>
+      </section>
+
+      <section className="mt-14 mb-[72px]">
+        <div className="layout-center">
+          <h2 className="text-heading leading-tight">Support our mission</h2>
+          <p className="text-lg text-black">
+            We are open to every kind of partnership: big or small. Just contact
+            us at luciana@scalarschool.org{" "}
+          </p>
         </div>
       </section>
     </>
