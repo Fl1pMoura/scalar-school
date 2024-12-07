@@ -14,6 +14,9 @@ export default {
         "primary-purple": "#8251B9",
         "heading-purple": "#B300FF",
       },
+      animation: {
+        "spin-slow": "spin 7s linear infinite",
+      },
     },
   },
   plugins: [],

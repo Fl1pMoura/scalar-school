@@ -14,12 +14,12 @@ export default function PersonCard({ imageSrc, name, role }: IPersonCardProps) {
           alt={name}
           src={imageSrc}
           fill
-          sizes="234px 234px"
-          className="w-full h-full rounded-full overflow-clip"
+          sizes="214px"
+          className="rounded-full object-cover"
         />
       </div>
       <p className="text-center text-xl mt-7 text-black">{name}</p>
-      <p className="text-center text-lg text-black">{role}</p>
+      <p className="text-center text-lg text-black leading-normal">{role}</p>
     </div>
   );
 }

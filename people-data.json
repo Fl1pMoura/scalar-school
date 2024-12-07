@@ -1,0 +1,102 @@
+{
+  "luciana-ferreira.jpg": {
+    "name": "Luciana Ferreira",
+    "role": "Founder & CEO",
+    "order": 10
+  },
+  "rachel.jpg": {
+    "name": "Rachel Rybarczyk",
+    "role": "Board Member",
+    "order": 5
+  },
+  "nikbott.jpeg": {
+    "name": "nikbott",
+    "role": "Student League Coordinator",
+    "order": 15
+  },
+  "alana.jpg": {
+    "name": "Alana Mediavilla",
+    "role": "Genesis Builder",
+    "order": 100
+  },
+  "art.png": {
+    "name": "Art Assoiants",
+    "role": "Genesis Builder",
+    "order": 110
+  },
+  "calle.jpg": {
+    "name": "calle",
+    "role": "Genesis Builder",
+    "order": 120
+  },
+  "christof.jpg": {
+    "name": "Christof",
+    "role": "Genesis Builder",
+    "order": 130
+  },
+  "cirqueira.jpeg": {
+    "name": "Cirqueira",
+    "role": "Genesis Builder",
+    "order": 140
+  },
+  "diego.png": {
+    "name": "Diego Reis",
+    "role": "Genesis Builder",
+    "order": 150
+  },
+  "ester.jpeg": {
+    "name": "Ester Zanato",
+    "role": "Genesis Builder",
+    "order": 160
+  },
+  "evan.png": {
+    "name": "Evan Kaloudis",
+    "role": "Founder at ZEUS Genesis Builder",
+    "order": 170
+  },
+  "felipe.jpeg": {
+    "name": "Felipe Moura",
+    "role": "Genesis Builder",
+    "order": 180
+  },
+  "lorraine.png": {
+    "name": "Lorraine Marcel",
+    "role": "Genesis Builder",
+    "order": 190
+  },
+  "luiz.png": {
+    "name": "Luiz Rosa",
+    "role": "Genesis Builder",
+    "order": 200
+  },
+  "luiza.jpeg": {
+    "name": "Luiza",
+    "role": "Genesis Builder",
+    "order": 210
+  },
+  "marcos.png": {
+    "name": "Marcos",
+    "role": "Genesis Builder",
+    "order": 220
+  },
+  "matthew.jpg": {
+    "name": "Matthew Vuk",
+    "role": "Genesis Builder",
+    "order": 230
+  },
+  "ricardo.png": {
+    "name": "Ricardo Agostinho",
+    "role": "Genesis Builder",
+    "order": 240
+  },
+  "super.jpg": {
+    "name": "Super Testnet",
+    "role": "Genesis Builder",
+    "order": 250
+  },
+  "umi.png": {
+    "name": "Umi Miyahara",
+    "role": "Genesis Builder",
+    "order": 260
+  }
+}
