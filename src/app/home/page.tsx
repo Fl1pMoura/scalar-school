@@ -21,7 +21,7 @@ export default function Home() {
           <a
             href="https://discord.gg/xeSRvdUz"
             target="_blank"
-            className="mt-6 flex max-h-[68px] justify-center items-center font-bold text-xl text-white bg-primary-pink max-w-[498px] w-full mx-auto rounded-full py-3.5 px-4 transition-all hover:bg-heading-purple lg:mt-0 lg:text-3xl"
+            className="mt-6 flex max-h-[68px] justify-center items-center font-bold text-xl text-white bg-primary-pink max-w-[498px] w-full mx-auto rounded-full py-3.5 px-4 transition-all hover:bg-heading-purple active:bg-primary-blue lg:mt-0 lg:text-3xl"
           >
             Join our Discord server
           </a>
