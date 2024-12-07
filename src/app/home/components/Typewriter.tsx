@@ -12,14 +12,14 @@ function Typewriter({ parts, delay = 0, onComplete }: ITypewriterProps) {
   if (!parts || parts.length === 0) return null;
 
   return (
-    <span className="flex text-primary-pink gap-3">
+    <span className="block text-primary-pink gap-3 [&:not(:last-child)]:mb-2 lg:flex lg:mb-0 lg:[&:not(:last-child)]:mb-0">
       <ReactTyped
         strings={[parts[0]]} // Primeira parte
         typeSpeed={20} // Velocidade da digitação
         startDelay={delay}
         showCursor={false} // Remove o cursor para esta parte
       />
-      <em className="not-italic text-primary-purple">
+      <em className="not-italic text-primary-purple ml-3">
         <ReactTyped
           strings={[parts[1]]} // Segunda parte
           typeSpeed={20} // Velocidade da digitação

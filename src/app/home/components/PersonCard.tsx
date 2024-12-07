@@ -9,7 +9,7 @@ export interface IPersonCardProps {
 export default function PersonCard({ imageSrc, name, role }: IPersonCardProps) {
   return (
     <div className="flex flex-col items-center max-w-[234px]">
-      <div className="relative w-[214px] h-[214px]">
+      <div className="relative size-[180px] lg:size-[214px]">
         <Image
           alt={name}
           src={imageSrc}
@@ -18,8 +18,10 @@ export default function PersonCard({ imageSrc, name, role }: IPersonCardProps) {
           className="rounded-full object-cover"
         />
       </div>
-      <p className="text-center text-xl mt-7 text-black">{name}</p>
-      <p className="text-center text-lg text-black leading-normal">{role}</p>
+      <p className="text-center mt-4 text-lg text-black lg:mt-7 lg:text-xl">
+        {name}
+      </p>
+      <p className="text-center text-black leading-normal lg:text-lg">{role}</p>
     </div>
   );
 }

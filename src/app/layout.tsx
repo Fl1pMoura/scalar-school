@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${jetBrains.className} antialiased`}>
+      <body className={`${jetBrains.className} antialiased overflow-x-clip`}>
         <main>{children}</main>
       </body>
     </html>

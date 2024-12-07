@@ -14,24 +14,24 @@ export default function Home() {
       <Header />
       <section>
         <div className="layout-center">
-          <div className="flex items-center w-full max-w-[1220px] justify-center mx-auto gap-10 text-black mt-28 mb-16">
+          <div className="hidden items-center w-full max-w-[1220px] justify-center mx-auto gap-10 text-black mt-28 mb-16 lg:flex">
             <h1 className="text-6xl">:~$ Scalar School</h1>
             <BitcoinIcon className="size-[90px] transition-all animate-spin-slow" />
           </div>
           <a
             href="https://discord.gg/xeSRvdUz"
             target="_blank"
-            className="flex max-h-[68px] justify-center items-center font-bold text-3xl text-white bg-primary-pink max-w-[498px] w-full mx-auto rounded-full py-3.5 px-4"
+            className="mt-6 flex max-h-[68px] justify-center items-center font-bold text-xl text-white bg-primary-pink max-w-[498px] w-full mx-auto rounded-full py-3.5 px-4 lg:mt-0 lg:text-3xl"
           >
             Join our Discord server
           </a>
-          <article className="max-w-[1030px] w-full mx-auto mt-20 mb-28">
-            <header className="bg-primary-blue w-full px-5 py-2">
-              <em className="text-white font-bold text-xl">
+          <article className="max-w-[1030px] mx-auto mt-6 mb-8 w-[calc(100%+40px)] -ml-5 lg:w-full lg:ml-0 lg:mt-20 lg:mb-28">
+            <header className="bg-primary-blue w-full px-4 py-2 lg:px-5">
+              <em className="text-white font-bold text-base lg:text-xl">
                 Scalar School of Bitcoin Developers
               </em>
             </header>
-            <div className="font-bold px-5 pt-6 not-italic text-primary-purple border border-primary-blue border-t-0 min-h-[372px] text-xl space-y-2">
+            <div className="font-bold px-5 py-4 not-italic text-primary-purple border border-primary-blue border-t-0 min-h-[297px] lg:min-h-[372px] text-base space-y-2 lg:text-xl lg:pt-6 lg:py-0">
               <Typewriter />
             </div>
           </article>
@@ -42,11 +42,11 @@ export default function Home() {
         <div className="layout-center">
           <h2 className="text-heading">Vision</h2>
           <div className="space-y-5">
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               Scalar School was created from a shared dream: to make Bitcoin
               open-source development inclusive and accessible for beginners.
             </p>
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               Established at{" "}
               <strong className="text-primary-pink">block 834812</strong> by{" "}
               <strong className="text-primary-pink">Luciana Ferreira</strong>
@@ -66,11 +66,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="values" className="mt-12">
+      <section id="values" className="mt-8 lg:mt-12">
         <div className="layout-center">
           <h2 className="text-heading">Values</h2>
           <div className="space-y-5">
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">
                 We believe in open source.
               </strong>{" "}
@@ -79,14 +79,14 @@ export default function Home() {
               is built to span generations and create a lasting impact on
               humanity.
             </p>
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">
                 Low time preference, high sense of urgency.
               </strong>{" "}
               We value agency and taking bold steps today to create meaningful
               change, confident in our ability to learn and adapt as we grow.
             </p>
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">
                 Impact through playfulness.
               </strong>{" "}
@@ -94,12 +94,12 @@ export default function Home() {
               we learn with joy. Even the hardest days are brightened when we
               come together as a community to study, code, and grow.
             </p>{" "}
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">Abundance mindset.</strong>{" "}
               We believe money is energy, a force that flows freely, and that
               the prosperity of our peers uplifts us all.
             </p>{" "}
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">
                 Harmony in diversity.
               </strong>{" "}
@@ -107,13 +107,13 @@ export default function Home() {
               and diverse perspectives. Through collaboration, adaptation, and
               the free exchange of ideas, we catalyze innovation and progress.
             </p>{" "}
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">We forgive.</strong>{" "}
               Relationships and shared values come before being right. We
               embrace mistakes as opportunities to grow, keeping empathy and
               collaboration at the heart of everything we do.
             </p>{" "}
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">We dream big.</strong> Want
               to become a core dev? It's perfectly possible. Here, imagination
               knows no limits, and with focus and hard work, there's no end to
@@ -123,11 +123,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="whatWeDo" className="mt-12">
+      <section id="whatWeDo" className="mt-8 lg:mt-12">
         <div className="layout-center">
           <h2 className="text-heading">What we do</h2>
-          <div className="space-y-8">
-            <p className="text-lg text-black leading-normal">
+          <div className="space-y-4 lg:space-y-8">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">We meet.</strong> Hosting
               nightly sessions on Discord where we come together to code and
               learn. The community is open to activity proposals and lessons,
@@ -135,29 +135,29 @@ export default function Home() {
               activities are outlined in the #schedule channel.
             </p>
             <a
-              className="block font-bold text-center text-2xl text-primary-pink my-6 group relative w-fit mx-auto"
+              className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto my-4 lg:text-2xl lg:my-6"
               href="https://x.com/fatecbitcoin"
               target="_blank"
             >
-              <span className="bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
+              <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
               Join our Discord server
             </a>
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">We design.</strong> The
               ecosystem lacks educational materials in Brazilian Portuguese. We
               focus on translating existing content and designing brand-new
               instructional materials compiled from the best sources.
             </p>
             <a
-              className="block font-bold text-center text-2xl text-primary-pink my-6 group relative w-fit mx-auto"
+              className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto lg:text-2xl lg:my-6"
               href="https://bony-soapwort-32f.notion.site/Scalar-School-Didactic-Materials-61b74ce365a74791b98b182513137747?pvs=4"
               target="_blank"
             >
-              <span className="bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
+              <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
               Check out the didactic materials we created in Brazilian
               Portuguese
             </a>
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">We build community.</strong>{" "}
               We support universities in bootstrapping their Bitcoin Clubs
               through the{" "}
@@ -169,43 +169,43 @@ export default function Home() {
             </p>
           </div>
           <a
-            className="block font-bold text-center text-2xl text-primary-pink my-6 group relative w-fit mx-auto"
+            className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto my-4 lg:text-2xl lg:my-6"
             href="https://x.com/fatecbitcoin"
             target="_blank"
           >
-            <span className="bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
+            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
             Fatec Bitcoin Club
           </a>
           <a
-            className="block font-bold text-center text-2xl text-primary-pink mb-6 group relative w-fit mx-auto"
+            className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto mb-4 lg:text-2xl lg:mb-6"
             href="https://x.com/ubtcx"
             target="_blank"
           >
-            <span className="bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
+            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
             UFSCar Bitcoin Club
           </a>
-          <p className="text-lg text-black leading-normal">
+          <p className="text-base lg:text-lg text-black leading-normal">
             We are also proud organizers of the classic Bitdevs events in the
             countryside of São Paulo state, covering Ribeirão Preto-SP and São
             Carlos-SP, collectively known as Bitdevs Interior:
           </p>
           <a
-            className="block font-bold text-center text-2xl text-primary-pink my-6 group relative w-fit mx-auto"
+            className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink my-4 group relative w-fit mx-auto lg:text-2xl lg:my-6"
             href="https://github.com/bitdevsinterior"
             target="_blank"
           >
-            <span className="bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            https://github.com/bitdevsinterior
+            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
+            Check out our projects and community events on GitHub.
           </a>
           <a
-            className="block font-bold text-center text-2xl text-primary-pink my-6 group relative w-fit mx-auto"
+            className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group my-4 relative w-fit mx-auto lg:text-2xl lg:my-6"
             href="https://x.com/bitdevsinterior"
             target="_blank"
           >
-            <span className="bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            https://x.com/bitdevsinterior
+            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
+            Join us on X for event updates and community discussions.
           </a>
-          <p className="text-lg text-black leading-normal">
+          <p className="text-base lg:text-lg text-black leading-normal">
             Check out the artwork created by the students for the genesis
             meeting of the UFSCar Bitcoin Club:
           </p>
@@ -227,45 +227,46 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-14">
+      <section className="mt-8 lg:mt-14">
         <div className="layout-center">
           <h2 className="text-heading">Attention from the press</h2>
-          <p className="text-lg text-black leading-normal">
+          <p className="text-base lg:text-lg text-black leading-normal">
             We were honored to receive coverage from BeInCrypto when we launched
             our first Bitcoin course cohort for women.
           </p>
           <a
-            className="block font-bold text-center text-2xl text-primary-pink my-6 group relative w-fit mx-auto"
+            className="underline underline-offset-2 lg:no-underline block my-4 font-bold text-center text-primary-pink group relative w-fit mx-auto lg:text-2xl lg:my-6"
             href="https://br.beincrypto.com/mulheres-acesso-curso-gartuito-bitcoin-brasil/"
             target="_blank"
           >
-            <span className="bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
+            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
             School offers a free Bitcoin course for women
           </a>
-          <p className="text-lg text-black leading-normal">
+          <p className="text-base lg:text-lg text-black leading-normal">
             See this iconic post from the first cohort of Scalar School.
           </p>
           <a
-            className="block font-bold text-center text-2xl text-primary-pink my-6 group relative w-fit mx-auto"
+            className="underline underline-offset-2 lg:no-underline block font-bold break-words text-center text-primary-pink my-4 group relative w-fit mx-auto lg:text-2xl lg:my-6"
             href="https://x.com/scalarschool/status/1851794719962964150"
             target="_blank"
           >
-            <span className="bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            https://x.com/scalarschool/status/1851794719962964150
+            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
+            Check out this iconic post from the first cohort of Scalar School on
+            X.
           </a>
         </div>
       </section>
 
-      <section id="ourPeople" className="mt-14">
+      <section id="ourPeople" className="mt-8 lg:mt-14">
         <div className="layout-center">
           <h2 className="text-heading">Our people</h2>
-          <p className="text-lg text-black leading-normal max-w-[600px] mx-auto mb-12">
+          <p className="text-base lg:text-lg text-black leading-normal max-w-[600px] mx-auto mb-12">
             “Life is a cooperative game. Don’t let anyone make you believe that
             this is a competition.”{" "}
             <strong className="text-primary-pink">—Luciana Ferreira</strong>
           </p>
           <div>
-            <div className="grid grid-cols-[repeat(auto-fit,_minmax(214px,_1fr))] gap-6">
+            <div className="flex gap-8 px-2 overflow-x-auto w-[calc(100%+40px)] -ml-5 lg:grid lg:grid-cols-[repeat(auto-fit,_minmax(214px,_1fr))] lg:gap-6 lg:ml-0 lg:w-auto">
               {ourPeople.map((person) => (
                 <PersonCard
                   key={person.image}
@@ -279,25 +280,25 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="" className="mt-28">
+      <section id="" className="mt-8 lg:mt-28">
         <div className="layout-center">
           <h2 className="text-heading leading-tight">
             Here’s what our students from the first cohort shared through the
             anonymous feedback form
           </h2>
           <div className="space-y-7">
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               "Luciana's teaching method is excellent and covered the entire
               explanation of how Bitcoin works, which was exactly what I wanted
               to learn." <b className="text-heading-purple">—Anonymous</b>
             </p>
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               "Luciana understands the need to adapt her approach for a
               Brazilian female audience. It wouldn’t be convincing if it were
               just for marketing purposes."{" "}
               <b className="text-heading-purple">—Anonymous</b>
             </p>
-            <p className="text-lg text-black leading-normal">
+            <p className="text-base lg:text-lg text-black leading-normal">
               "Luciana's work is incredible and has been essential for the
               growth of the community."{" "}
               <b className="text-heading-purple">—Anonymous</b>
@@ -306,12 +307,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-14">
+      <section className="mt-8 lg:mt-14">
         <div className="layout-center">
           <h2 className="text-heading leading-tight">
             And here’s what our valued community members are saying{" "}
           </h2>
-          <p className="text-lg text-black leading-normal">
+          <p className="text-base lg:text-lg text-black leading-normal">
             “Scalar School is doing an essential work: educating junior
             developers in Latin America about bitcoin app development, with an
             emphasis on inclusion. I have been particularly proud to contribute
@@ -327,10 +328,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="sponsors" className="mt-14">
+      <section id="sponsors" className="mt-8 lg:mt-14">
         <div className="layout-center">
           <h2 className="text-heading leading-tight">Sponsors</h2>
-          <div className="relative w-[400px] h-[132px] mx-auto mb-16">
+          <div className="relative mx-auto w-[200px] h-[66px] lg:mb-16 lg:w-[400px] lg:h-[132px]">
             <Image
               alt="Human Rights Foundation"
               src="/human-rights-foundation-logo.webp"
@@ -341,10 +342,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="partners" className="mt-28">
+      <section id="partners" className="mt-8 lg:mt-28">
         <div className="layout-center">
           <h2 className="text-heading leading-tight">Partners</h2>
-          <div className="relative w-[400px] h-[132px] mx-auto mb-16">
+          <div className="relative w-[200px] h-[66px] mx-auto lg:mb-16 lg:w-[400px] lg:h-[132px]">
             <Image
               alt="Human Rights Foundation"
               src="/bsn-logo.webp"
@@ -355,16 +356,17 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="supportUs" className="mt-28 mb-[72px]">
+      <section id="supportUs" className="my-10 lg:mt-28 lg:mb-[72px]">
         <div className="layout-center">
           <h2 className="text-heading leading-tight">Support our mission</h2>
-          <p className="text-lg text-black leading-normal">
+          <p className="text-base lg:text-lg text-black leading-normal">
             We welcome all kinds of partnerships, big or small. <br />
             Feel free to contact us at{" "}
             <a
-              className="text-heading-purple font-bold"
+              className="underline underline-offset-2 lg:no-underline text-heading-purple font-bold relative group"
               href="mailto:luciana@scalarschool.org"
             >
+              <span className=" hidden lg:block bg-heading-purple absolute bottom-[1px] h-[1px] left-0 group-hover:w-full w-0 transition-all" />
               luciana@scalarschool.org
             </a>
           </p>

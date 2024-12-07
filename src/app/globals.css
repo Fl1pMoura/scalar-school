@@ -4,10 +4,10 @@
 
 @layer components {
   .layout-center{
-    @apply max-w-7xl mx-auto px-5;
+    @apply max-w-md mx-auto px-5 lg:max-w-7xl;
   }
 
   .text-heading {
-    @apply font-bold text-[40px] mb-8 leading-none text-heading-purple;
+    @apply font-bold text-2xl mb-4 leading-none text-heading-purple lg:text-[40px] lg:mb-8;
   }
 }
