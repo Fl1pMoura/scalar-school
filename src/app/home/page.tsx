@@ -25,7 +25,7 @@ export default function Home() {
           >
             Join our Discord server
           </a>
-          <article className="max-w-[1030px] mx-auto mt-6 mb-8 w-[calc(100%+40px)] -ml-5 lg:w-full lg:ml-0 lg:mt-20 lg:mb-28">
+          <article className="max-w-[1030px] mt-6 mb-8 w-[calc(100%+40px)] -ml-5 lg:w-full lg:mt-20 lg:mb-28 lg:mx-auto">
             <header className="bg-primary-blue w-full px-4 py-2 lg:px-5">
               <em className="text-white font-bold text-base lg:text-xl">
                 Scalar School of Bitcoin Developers
