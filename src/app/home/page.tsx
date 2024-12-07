@@ -49,11 +49,9 @@ export default function Home() {
             <p className="text-base lg:text-lg text-black leading-normal">
               Established at{" "}
               <strong className="text-primary-pink">block 834812</strong> by{" "}
-              <strong className="text-primary-pink">Luciana Ferreira</strong>
+              <strong className="text-primary-pink">Luciana Ferreira</strong>{" "}
               and{" "}
-              <strong className="text-primary-pink">
-                Rachel Rybarczyk
-              </strong>{" "}
+              <strong className="text-primary-pink">Rachel Rybarczyk</strong>{" "}
               with a generous grant from the{" "}
               <strong className="text-primary-pink">
                 Human Rights Foundation
