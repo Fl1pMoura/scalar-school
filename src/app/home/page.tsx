@@ -16,10 +16,10 @@ export default function Home() {
         <div className="layout-center">
           <div className="hidden items-center w-full max-w-[1220px] justify-center mx-auto gap-10 text-black mt-28 mb-16 lg:flex">
             <h1 className="text-6xl">:~$ Scalar School</h1>
-            <BitcoinIcon className="size-[90px] transition-all animate-spin-slow" />
+            <BitcoinIcon className="size-[90px]" />
           </div>
           <a
-            href="https://discord.gg/xeSRvdUz"
+            href="https://discord.gg/PbYCWhVKgV"
             target="_blank"
             className="mt-6 flex max-h-[68px] justify-center items-center font-bold text-xl text-white bg-primary-pink max-w-[498px] w-full mx-auto rounded-full py-3.5 px-4 transition-all hover:bg-heading-purple active:bg-primary-blue lg:mt-0 lg:text-3xl"
           >
@@ -129,8 +129,7 @@ export default function Home() {
               <strong className="text-primary-pink">We meet.</strong> Hosting
               nightly sessions on Discord where we come together to code and
               learn. The community is open to activity proposals and lessons,
-              and members can count on our engagement and peer review. Our
-              activities are outlined in the #schedule channel.
+              and members can count on our engagement and peer review.
             </p>
             <a
               className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto my-4 lg:text-2xl lg:my-6"
@@ -139,6 +138,14 @@ export default function Home() {
             >
               <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
               Join our Discord server
+            </a>
+            <a
+              className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto my-4 lg:text-2xl lg:my-6"
+              href="https://x.com/scalarschool"
+              target="_blank"
+            >
+              <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
+              Scalar School X
             </a>
             <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">We design.</strong> The
@@ -172,7 +179,7 @@ export default function Home() {
             target="_blank"
           >
             <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            Fatec Bitcoin Club
+            Fatec Bitcoin Club X
           </a>
           <a
             className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto mb-4 lg:text-2xl lg:mb-6"
@@ -180,7 +187,7 @@ export default function Home() {
             target="_blank"
           >
             <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            UFSCar Bitcoin Club
+            UFSCar Bitcoin Club X
           </a>
           <p className="text-base lg:text-lg text-black leading-normal">
             We are also proud organizers of the classic Bitdevs events in the
@@ -189,19 +196,19 @@ export default function Home() {
           </p>
           <a
             className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink my-4 group relative w-fit mx-auto lg:text-2xl lg:my-6"
-            href="https://github.com/bitdevsinterior"
+            href="https://github.com/bitdevsinterior/bitdevsinterior.github.io/issues/1"
             target="_blank"
           >
             <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            Check out our projects and community events on GitHub.
+            Bitdevs Interior GitHub Organization
           </a>
           <a
             className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group my-4 relative w-fit mx-auto lg:text-2xl lg:my-6"
-            href="https://x.com/bitdevsinterior"
+            href="https://x.com/scalarschool/status/1862347909385113797"
             target="_blank"
           >
             <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            Join us on X for event updates and community discussions.
+            Bitdevs Interior X
           </a>
           <p className="text-base lg:text-lg text-black leading-normal">
             Check out the artwork created by the students for the genesis
@@ -249,8 +256,7 @@ export default function Home() {
             target="_blank"
           >
             <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            Check out this iconic post from the first cohort of Scalar School on
-            X.
+            First Cohort Scalar School X
           </a>
         </div>
       </section>
