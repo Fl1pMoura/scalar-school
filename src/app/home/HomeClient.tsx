@@ -361,7 +361,7 @@ export default function Home({
             label="LinkedIn"
             linkUrl="https://www.linkedin.com/in/lucianareyferreira/"
           />
-          <figure className="max-w-3xl mx-auto">
+          <figure className="w-[calc(100%+40px)] -ml-5 max-w-3xl lg:mx-auto lg:w-full">
             <Image
               alt="Poster ufscar bitcoin club"
               src={`/bitdevs.webp`}
