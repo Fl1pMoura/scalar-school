@@ -4,6 +4,7 @@ import { BitcoinIcon } from "@/components/icons/BitcoinIcon";
 import Image from "next/image";
 
 import Header from "./components/Header";
+import LinkComponent from "./components/LinkComponent";
 import PersonCard from "./components/PersonCard";
 import Typewriter from "./components/Typewriter";
 import { useHome } from "./useHome";
@@ -136,85 +137,61 @@ export default function Home({
               learn. The community is open to activity proposals and lessons,
               and members can count on our engagement and peer review.
             </p>
-            <a
-              className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto my-4 lg:text-2xl lg:my-6"
-              href="https://discord.gg/PbYCWhVKgV"
-              target="_blank"
-            >
-              <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-              Join our Discord server
-            </a>
-            <a
-              className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto my-4 lg:text-2xl lg:my-6"
-              href="https://x.com/scalarschool"
-              target="_blank"
-            >
-              <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-              Scalar School X
-            </a>
+            <LinkComponent
+              label="Join our Discord server"
+              linkUrl="https://discord.gg/PbYCWhVKgV"
+            />
+            <LinkComponent
+              label="Scalar School X"
+              linkUrl="https://x.com/scalarschool"
+            />
             <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">We design.</strong> The
               ecosystem lacks educational materials in Brazilian Portuguese. We
               focus on translating existing content and designing brand-new
               instructional materials compiled from the best sources.
             </p>
-            <a
-              className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto lg:text-2xl lg:my-6"
-              href="https://bony-soapwort-32f.notion.site/Scalar-School-Didactic-Materials-61b74ce365a74791b98b182513137747?pvs=4"
-              target="_blank"
-            >
-              <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-              Check out the didactic materials we created in Brazilian
-              Portuguese
-            </a>
+            <LinkComponent
+              label="Check out the didactic materials we created in Brazilian
+              Portuguese"
+              linkUrl="https://bony-soapwort-32f.notion.site/Scalar-School-Didactic-Materials-61b74ce365a74791b98b182513137747?pvs=4"
+            />
             <p className="text-base lg:text-lg text-black leading-normal">
               <strong className="text-primary-pink">We build community.</strong>{" "}
               We support universities in bootstrapping their Bitcoin Clubs
               through the{" "}
-              <em className="not-italic underline underline-offset-2">
+              <a
+                href="http://bitcoinstudentsnetwork.org"
+                className="not-italic underline underline-offset-2 transition-all hover:text-primary-pink"
+              >
                 Bitcoin Students Network
-              </em>
+              </a>
               . Check out the hall of clubs kickstarted and nurtured by Scalar
               School.
             </p>
           </div>
-          <a
-            className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto my-4 lg:text-2xl lg:my-6"
-            href="https://x.com/fatecbitcoin"
-            target="_blank"
-          >
-            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            Fatec Bitcoin Club X
-          </a>
-          <a
-            className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto mb-4 lg:text-2xl lg:mb-6"
-            href="https://x.com/ubtcx"
-            target="_blank"
-          >
-            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            UFSCar Bitcoin Club X
-          </a>
+          <LinkComponent
+            label="Fatec Bitcoin Club X"
+            linkUrl="https://x.com/fatecbitcoin"
+          />
+          <LinkComponent
+            label="UFSCar Bitcoin Club X"
+            linkUrl="https://x.com/ubtcx"
+          />
+
           <p className="text-base lg:text-lg text-black leading-normal">
             We are also proud organizers of the classic Bitdevs events in the
             countryside of São Paulo state, covering Ribeirão Preto-SP and São
             Carlos-SP, collectively known as Bitdevs Interior:
           </p>
-          <a
-            className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink my-4 group relative w-fit mx-auto lg:text-2xl lg:my-6"
-            href="https://github.com/bitdevsinterior/bitdevsinterior.github.io/issues/1"
-            target="_blank"
-          >
-            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            Bitdevs Interior GitHub Organization
-          </a>
-          <a
-            className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group my-4 relative w-fit mx-auto lg:text-2xl lg:my-6"
-            href="https://x.com/scalarschool/status/1862347909385113797"
-            target="_blank"
-          >
-            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            Bitdevs Interior X
-          </a>
+          <LinkComponent
+            label="Bitdevs Interior GitHub Organization"
+            linkUrl="https://github.com/bitdevsinterior/bitdevsinterior.github.io/issues/1"
+          />
+          <LinkComponent
+            label="Bitdevs Interior X"
+            linkUrl="https://x.com/scalarschool/status/1862347909385113797"
+          />
           <p className="text-base lg:text-lg text-black leading-normal">
             Check out the artwork created by the students for the genesis
             meeting of the UFSCar Bitcoin Club:
@@ -244,25 +221,17 @@ export default function Home({
             We were honored to receive coverage from BeInCrypto when we launched
             our first Bitcoin course cohort for women.
           </p>
-          <a
-            className="underline underline-offset-2 lg:no-underline block my-4 font-bold text-center text-primary-pink group relative w-fit mx-auto lg:text-2xl lg:my-6"
-            href="https://br.beincrypto.com/mulheres-acesso-curso-gartuito-bitcoin-brasil/"
-            target="_blank"
-          >
-            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            School offers a free Bitcoin course for women
-          </a>
+          <LinkComponent
+            label="School offers a free Bitcoin course for women"
+            linkUrl="https://br.beincrypto.com/mulheres-acesso-curso-gartuito-bitcoin-brasil/"
+          />
           <p className="text-base lg:text-lg text-black leading-normal">
             See this iconic post from the first cohort of Scalar School.
           </p>
-          <a
-            className="underline underline-offset-2 lg:no-underline block font-bold break-words text-center text-primary-pink my-4 group relative w-fit mx-auto lg:text-2xl lg:my-6"
-            href="https://x.com/scalarschool/status/1851794719962964150"
-            target="_blank"
-          >
-            <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />
-            First Cohort Scalar School X
-          </a>
+          <LinkComponent
+            label="First Cohort Scalar School X"
+            linkUrl="https://x.com/scalarschool/status/1851794719962964150"
+          />
         </div>
       </section>
 
@@ -371,14 +340,41 @@ export default function Home({
           <p className="text-base lg:text-lg text-black leading-normal">
             We welcome all kinds of partnerships, big or small. <br />
             Feel free to contact us at{" "}
-            <a
-              className="underline underline-offset-2 lg:no-underline text-heading-purple font-bold relative group"
-              href="mailto:luciana@scalarschool.org"
-            >
-              <span className=" hidden lg:block bg-heading-purple absolute bottom-[1px] h-[1px] left-0 group-hover:w-full w-0 transition-all" />
-              luciana@scalarschool.org
-            </a>
+            <LinkComponent
+              className="underline underline-offset-2 text-base text-heading-purple font-bold relative group inline-block my-0 lg:text-lg lg:no-underline lg:my-0"
+              label="luciana@scalarschool.org"
+              linkUrl="mailto:luciana@scalarschool.org"
+            />
           </p>
+          <LinkComponent
+            className="underline underline-offset-2 text-base text-heading-purple font-bold relative group mx-0 block my-3 mt-5 lg:text-lg lg:no-underline lg:my-4"
+            label="Nostr Primal"
+            linkUrl="https://primal.net/p/npub1v799vkkxjasjtjcrr4wh2ral5vcklqhg0tyyvc6gvfe5qfrd57mqutqrup"
+          />
+          <LinkComponent
+            className="underline underline-offset-2 text-base text-heading-purple font-bold relative group mx-0 block my-3 lg:text-lg lg:no-underline lg:my-4"
+            label="Twitter X"
+            linkUrl="https://x.com/scalarschool"
+          />
+          <LinkComponent
+            className="underline underline-offset-2 text-base text-heading-purple font-bold relative group mx-0 block my-3 lg:text-lg lg:no-underline lg:my-4"
+            label="LinkedIn"
+            linkUrl="https://www.linkedin.com/in/lucianareyferreira/"
+          />
+          <figure className="max-w-3xl mx-auto">
+            <Image
+              alt="Poster ufscar bitcoin club"
+              src={`/bitdevs.webp`}
+              // O Next.js pegará width/height automaticamente da imagem
+              width={0}
+              height={0}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="w-full h-auto" // Para responsividade/>
+            />
+          </figure>
+          <strong className="text-base text-heading-purple text-center block mt-5 lg:mt-9 lg:text-lg">
+            Thank you!
+          </strong>
         </div>
       </section>
     </>

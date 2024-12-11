@@ -10,12 +10,12 @@ const nextConfig = {
     ];
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "rseat.pics",
-      },
-    ],
+    // remotePatterns: [
+    //   {
+    //     protocol: "https",
+    //     hostname: "rseat.pics",
+    //   },
+    // ],
   },
 };
 
