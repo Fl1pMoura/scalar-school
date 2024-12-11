@@ -138,7 +138,7 @@ export default function Home({
             </p>
             <a
               className="underline underline-offset-2 lg:no-underline block font-bold text-center text-primary-pink group relative w-fit mx-auto my-4 lg:text-2xl lg:my-6"
-              href="https://x.com/fatecbitcoin"
+              href="https://discord.gg/PbYCWhVKgV"
               target="_blank"
             >
               <span className="hidden lg:block bg-primary-pink absolute bottom-[1px] h-[1px] group-hover:w-full w-0 transition-all" />

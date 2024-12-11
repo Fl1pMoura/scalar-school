@@ -4,7 +4,7 @@ import HeaderLink from "./HeaderLink";
 export default function Header() {
   return (
     <header className="max-w-md mx-auto px-5 lg:max-w-none mt-7 lg:px-0 lg:mt-[72px]">
-      <nav className="hidden layout-center w-full justify-between text-primary-pink font-bold text-xl leading-6 xl:text-2xl lg:flex">
+      <nav className="hidden layout-center w-full justify-between text-primary-pink text-prim font-bold text-xl leading-6 xl:text-2xl lg:flex">
         <HeaderLink target="home" label="Home" />
         <HeaderLink target="values" label="Values" />
         <HeaderLink target="whatWeDo" label="What we do" />
@@ -19,7 +19,7 @@ export default function Header() {
 
       <div className="flex justify-center lg:hidden">
         <h1 className="text-xl mr-5">:~$ Scalar School</h1>
-        <BitcoinIcon className="size-[26px] transition-all animate-spin-slow" />
+        <BitcoinIcon className="size-[26px]" />
       </div>
     </header>
   );
